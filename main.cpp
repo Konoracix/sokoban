@@ -18,9 +18,7 @@ int main(){
 	char userInput;
 	coords player;
 	if(!(menu.getRandomLevelStatus())){
-		map.loadMap(1);
-		map.printMap(map.getMap(), &dict);
-		for(int i = 1; i<=2; i++){
+		for(int i = 1; i<=map.getNumberOfMaps(); i++){
 			map.loadMap(i);
 			map.printMap(map.getMap(), &dict);
 			while(true){
