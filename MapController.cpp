@@ -8,11 +8,12 @@
 
 using namespace std;
 
-MapController::MapController(int _mapLength, int _mapHeight, int _numberOfMaps){
+MapController::MapController(int _mapLength, int _mapHeight){
 	MapController::mapHeight = _mapHeight;
 	MapController::mapLength = _mapLength;
 	MapController::moveValidator = new MoveValidator(_mapHeight, _mapLength);
-	MapController::numberOfMaps = _numberOfMaps;
+	ifstream config("./maps/config.txt");
+	config >> MapController::numberOfMaps;
 }
 
 MapController::~MapController(){

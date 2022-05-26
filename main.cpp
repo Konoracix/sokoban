@@ -14,7 +14,7 @@ int main(){
 	Menu menu;
 	menu.executeMenu();
 	Dictionary dict(menu.getColorModeStatus());
-	MapController map(10, 10, 2);
+	MapController map(10, 10);
 	char userInput;
 	coords player;
 	if(!(menu.getRandomLevelStatus())){

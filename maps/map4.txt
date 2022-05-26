@@ -1,0 +1,21 @@
+W W W W W W W W W W
+W E E E W W W W W W
+W E W E W W E E W W
+W E E E E E E E W W
+W W W W W W W E W W
+W W W W W W W E W W
+W W W W W W W H W W
+W W W W W W W W W W
+W W W W W W W W W W
+W W W W W W W W W W
+W W W W W W W W W W
+W E E E W W W W W W
+W E W B W W E E W W
+W P E E E E E E W W
+W W W W W W W E W W
+W W W W W W W E W W
+W W W W W W W H W W
+W W W W W W W W W W
+W W W W W W W W W W
+W W W W W W W W W W
+1

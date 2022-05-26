@@ -12,7 +12,7 @@ struct coords{
 
 class MapController{
 	public:
-		MapController(int mapLength, int mapHeight, int numberOfMaps);
+		MapController(int mapLength, int mapHeight);
 		~MapController();
 		void loadRandomMap(void);
 		void loadMap(int mapNumber);
