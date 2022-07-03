@@ -6,7 +6,7 @@ using namespace std;
 Dictionary::Dictionary(bool colorModeEnabled){
 	if(colorModeEnabled){
 		Dictionary::box = "\033[31;1m#\033[0m";
-		Dictionary::rescuePoint = "\033[1;32mH\033[0m";
+		Dictionary::rescuePoint = "\033[1;90mH\033[0m";
 		Dictionary::wall = "\033[90m#\033[0m";
 		Dictionary::player = "\33[34mo\33[0m";
 	}
